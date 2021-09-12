@@ -1,0 +1,62 @@
+#divEntete{
+    display: flex;
+    width: 1200px;
+}
+#divLecon{
+    /* float: left; */
+    display: inline-block;
+    width: 300px;
+}
+#divDate{
+    /* float: left; */
+    display: inline-block;
+    width: 300px;
+}
+#divHeure{
+    /* float: left; */
+    display: inline-block;
+    width: 300px;
+}
+#divCategories{ 
+    display: inline-block;
+    width: 300px;
+}
+#btnRechercher, #btnValider{
+    width: 907px;
+}
+#divDispos{
+    display: inline;
+    width: 1200px;
+}
+#divMoniteursDispos{
+    /* float: left; */
+    display: inline-block;
+    width: 400px;
+}
+#divVehiculesDispos{
+    /* float: left; */
+    display: inline-block;
+    width: 400px;
+}
+#divElevesDispos{
+    /* float: left; */
+    display: inline-block;
+    width: 400px;
+}
+.occupe{
+    background-color: red;
+}
+.libre{
+    background-color: transparent;
+}
+#divPied{
+    display: inline;
+    float: left;
+    width: 1200px;
+    height: 100px;
+}
+.radio-inline{
+    margin: 10px;
+    padding-left: 30px;
+    display: block;
+}
